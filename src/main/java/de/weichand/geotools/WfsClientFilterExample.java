@@ -36,7 +36,7 @@ public class WfsClientFilterExample
         // System.setProperty("http.proxyHost", ProxyHost);
         // System.setProperty("http.proxyPort", ProxyPort);
         
-        String getCapabilitiesUrl = "http://geoserv.weichand.de:8080/geoserver/wfs?acceptversions=2.0.0&REQUEST=GetCapabilities";
+        String getCapabilitiesUrl = "http://geoserv.weichand.de:8080/geoserver/wfs?acceptversions=1.1.0&REQUEST=GetCapabilities";
 
         // create WFS configuration
         Map connectionParameters = new HashMap();
