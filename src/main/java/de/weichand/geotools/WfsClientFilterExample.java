@@ -1,4 +1,4 @@
-package de.bayern.weichand.geotools;
+package de.weichand.geotools;
 
 import com.vividsolutions.jts.geom.Geometry;
 import java.io.IOException;
