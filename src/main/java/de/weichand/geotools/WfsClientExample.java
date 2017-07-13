@@ -6,7 +6,6 @@ import java.util.HashMap;
 import java.util.Map;
 import org.geotools.data.DataStore;
 import org.geotools.data.DataStoreFinder;
-import org.geotools.data.DefaultQuery;
 import org.geotools.data.FeatureSource;
 import org.geotools.feature.FeatureCollection;
 import org.geotools.feature.FeatureIterator;
@@ -18,11 +17,11 @@ import org.opengis.feature.simple.SimpleFeatureType;
 import org.opengis.filter.Filter;
 
 /**
- * Geotools 14.1 WfsClient example (CQL Filter)
+ * Geotools 16.1 WfsClient example
  *
  * @author Juergen Weichand
  */
-public class WfsClientFilterExample 
+public class WfsClientExample 
 {
 
     /**
